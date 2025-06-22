@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silício Rural - Quiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo-link">
+            <img src="images/logo-placeholder.png" alt="Silício Rural" class="logo">
+        </a>
+
+        <!-- Checkbox invisível para controlar o menu -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="rota.html">Rota dos Alimentos</a></li>
+                <li><a href="tecnologia.html">Tecnologia no Campo</a></li>
+                <li><a href="sobre.html">Sobre o Autor</a></li>
+                <li><a href="quizz.html" class="active">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="audio-container">
+        <audio controls>
+            <source src="audio/quiz.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </div>
+
+    <main class="main-content">
+        <section class="quiz-intro">
+            <h1>Quiz Silício Rural</h1>
+            <p>Vamos ver se você aprendeu com o Silício Rural...</p>
+            <p>Teste seus conhecimentos sobre a conexão campo-cidade e a tecnologia na agricultura!</p>
+        </section>
+
+        <div class="quiz-container">
+            <div class="question">
+                <h3>1. Qual cidade do Paraná é conhecida como a capital nacional do leite?</h3>
+                <div class="options">
+                    <label class="option correct">
+                        <input type="radio" name="q1">
+                        <span class="checkmark"></span>
+                        Castro
+                        <div class="feedback">Correto! Castro produz mais de 400 milhões de litros de leite por ano.</div>
+                    </label>
+                    <label class="option incorrect">
+                        <input type="radio" name="q1">
+                        <span class="checkmark"></span>
+                        Curitiba
+                        <div class="feedback">Incorreto. Curitiba é a capital do estado, mas não a maior produtora de leite.</div>
+                    </label>
+                    <label class="option incorrect">
+                        <input type="radio" name="q1">
+                        <span class="checkmark"></span>
+                        Londrina
+                        <div class="feedback">Incorreto. Londrina é importante para agricultura, mas não para produção leiteira.</div>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="question">
+                <h3>2. Qual tecnologia NÃO foi mencionada como utilizada na agricultura moderna?</h3>
+                <div class="options">
+                    <label class="option incorrect">
+                        <input type="radio" name="q2">
+                        <span class="checkmark"></span>
+                        Drones
+                        <div class="feedback">Incorreto. Drones são mencionados como tecnologia agrícola.</div>
+                    </label>
+                    <label class="option incorrect">
+                        <input type="radio" name="q2">
+                        <span class="checkmark"></span>
+                        Sensores de solo
+                        <div class="feedback">Incorreto. Sensores são parte da agricultura de precisão.</div>
+                    </label>
+                    <label class="option correct">
+                        <input type="radio" name="q2">
+                        <span class="checkmark"></span>
+                        Robôs humanoides
+                        <div class="feedback">Correto! Robôs humanoides não foram mencionados no site.</div>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="question">
+                <h3>3. Qual é o tempo médio do ciclo do plantio até a colheita do tomate?</h3>
+                <div class="options">
+                    <label class="option correct">
+                        <input type="radio" name="q3">
+                        <span class="checkmark"></span>
+                        70 a 90 dias
+                        <div class="feedback">Correto! O tomate leva em média 70 a 90 dias para ser colhido.</div>
+                    </label>
+                    <label class="option incorrect">
+                        <input type="radio" name="q3">
+                        <span class="checkmark"></span>
+                        30 a 45 dias
+                        <div class="feedback">Incorreto. Esse tempo é muito curto para o tomate.</div>
+                    </label>
+                    <label class="option incorrect">
+                        <input type="radio" name="q3">
+                        <span class="checkmark"></span>
+                        120 a 150 dias
+                        <div class="feedback">Incorreto. Esse tempo é mais característico do trigo.</div>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="question">
+                <h3>4. Qual empresa foi mencionada como marketplace que conecta produtores diretamente a compradores?</h3>
+                <div class="options">
+                    <label class="option incorrect">
+                        <input type="radio" name="q4">
+                        <span class="checkmark"></span>
+                        Solinftec
+                        <div class="feedback">Incorreto. A Solinftec é uma plataforma de monitoramento agrícola.</div>
+                    </label>
+                    <label class="option correct">
+                        <input type="radio" name="q4">
+                        <span class="checkmark"></span>
+                        Grão Direto
+                        <div class="feedback">Correto! O Grão Direto elimina intermediários na comercialização.</div>
+                    </label>
+                    <label class="option incorrect">
+                        <input type="radio" name="q4">
+                        <span class="checkmark"></span>
+                        Rural Tech
+                        <div class="feedback">Incorreto. A Rural Tech trabalha com agricultura de precisão.</div>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="question">
+                <h3>5. Qual porcentagem dos alimentos consumidos no Brasil vem da agricultura familiar?</h3>
+                <div class="options">
+                    <label class="option incorrect">
+                        <input type="radio" name="q5">
+                        <span class="checkmark"></span>
+                        30%
+                        <div class="feedback">Incorreto. A porcentagem é maior que isso.</div>
+                    </label>
+                    <label class="option correct">
+                        <input type="radio" name="q5">
+                        <span class="checkmark"></span>
+                        70%
+                        <div class="feedback">Correto! 70% dos alimentos vêm da agricultura familiar.</div>
+                    </label>
+                    <label class="option incorrect">
+                        <input type="radio" name="q5">
+                        <span class="checkmark"></span>
+                        50%
+                        <div class="feedback">Incorreto. O valor correto é maior que 50%.</div>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="final-message">
+            <p>Obrigado por testar seus conhecimentos sobre o Silício Rural!</p>
+            <p>Continue explorando para aprender mais sobre a conexão campo-cidade.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Site desenvolvido por Erick Matheus</p>
+        <div class="social-links">
+            <a href="https://instagram.com/erickmth__" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/erick-leguisamon/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/erickmth" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

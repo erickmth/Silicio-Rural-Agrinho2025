@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silício Rural - Rota dos Alimentos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rotas.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo-link">
+            <img src="images/logo-placeholder.png" alt="Silício Rural" class="logo">
+        </a>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="rota.html" class="active">Rota dos Alimentos</a></li>
+                <li><a href="tecnologia.html">Tecnologia no Campo</a></li>
+                <li><a href="sobre.html">Sobre o Autor</a></li>
+                                <li><a href="quizz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="audio-container">
+        <audio controls>
+            <source src="audio/rota.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </div>
+
+    <main class="main-content">
+        <h1>Rota dos Alimentos</h1>
+        <p>Conheça a jornada dos alimentos do campo até sua mesa. Selecione um produto abaixo para ver sua linha do
+            tempo:</p>
+
+        <div class="timeline-selector">
+            <a href="#tomate" class="timeline-btn">Tomate</a>
+            <a href="#leite" class="timeline-btn">Leite</a>
+            <a href="#cafe" class="timeline-btn">Café</a>
+            <a href="#trigo" class="timeline-btn">Trigo</a>
+        </div>
+
+        <section id="tomate" class="timeline rotaspr">
+            <h2>Linha do Tempo do Tomate</h2>
+            <div class="timeline-item">
+                <h3>Plantio</h3>
+                <p>As sementes germinam em 6 a 8 dias após a semeadura.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Cultivo</h3>
+                <p>O ciclo do plantio até a colheita dura em média de 70 a 90 dias, dependendo da variedade e clima.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Colheita</h3>
+                <p>Feita manualmente ou com máquinas, selecionando os frutos maduros.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Transporte</h3>
+                <p>Os tomates são transportados em caminhões refrigerados para centros de distribuição em até 24 horas.
+                </p>
+            </div>
+            <div class="timeline-item">
+                <h3>Distribuição</h3>
+                <p>Chegam aos mercados e feiras em 1 a 2 dias após a colheita.</p>
+            </div>
+            <div class="texto-com-imagem">
+                <div style="display: flex; align-items: flex-start; gap: 20px;">
+                    <div style="flex: 1;">
+                        <h4>Reserva (PR): a capital do tomate no Paraná</h4>
+                        <p>
+                            A cidade de Reserva, nos Campos Gerais do Paraná, é a maior produtora de tomate do estado, com
+                            destaque por conseguir realizar duas safras por ano. São cerca de 140 produtores cultivando 570
+                            hectares, o que resulta em aproximadamente 70 mil toneladas de tomates anualmente.
+
+                            Além do clima favorável, o conhecimento técnico dos agricultores garante esse alto rendimento. Em
+                            2023, a produção rendeu cerca de R$ 137,8 milhões para o município, consolidando Reserva como
+                            referência nacional na produção de tomate.
+                            <br>
+                            Fonte: <a
+                                href="https://g1.globo.com/pr/parana/caminhos-do-campo/noticia/2024/11/17/conheca-a-cidade-do-parana-que-tem-duas-safras-de-tomates-por-ano.ghtml"
+                                target="_blank" aria-label="G1 - Caminhos do Campo">G1 - Caminhos do Campo</a>
+                        </p>
+                        <img src="images/parana.png" alt="Mapa do Paraná" class="imagem-rota">
+                    </div>
+                    <img src="images/tomate.png" alt="Tomates vermelhos" style="max-width: 300px; border-radius: 8px;">
+                </div>
+            </div>
+        </section>
+
+        <section id="leite" class="timeline rotaspr">
+            <h2>Linha do Tempo do Leite</h2>
+            <div class="timeline-item">
+                <h3>Ordenha</h3>
+                <p>Realizada 2 a 3 vezes ao dia. Cada vaca leva de 5 a 10 minutos para ser ordenhada.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Resfriamento</h3>
+                <p>O leite é imediatamente resfriado a 4°C e armazenado em tanques refrigerados.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Transporte</h3>
+                <p>Caminhões isotérmicos coletam o leite a cada 24 a 48 horas, mantendo a refrigeração.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Processamento</h3>
+                <p>O leite é pasteurizado e embalado em até 6 horas após a chegada na indústria.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Distribuição</h3>
+                <p>Chega aos mercados de 24 a 48 horas após o processamento.</p>
+            </div>
+            <div class="texto-com-imagem">
+                <div style="display: flex; align-items: flex-start; gap: 20px;">
+                    <div style="flex: 1;">
+                        <h4>Castro (PR): Capital Nacional do Leite</h4>
+                        <p>
+                            Castro, nos Campos Gerais do Paraná, é reconhecida como a maior produtora de leite do Brasil pelo
+                            terceiro ano consecutivo, com uma produção anual que ultrapassa 400 milhões de litros. A cidade se
+                            destaca pela combinação de genética avançada, tecnologia e tradição, que garantem alta produtividade
+                            e qualidade no setor leiteiro.
+
+                            Em 2023, o grupo Unium, formado pelas cooperativas locais, investiu na construção de uma nova
+                            fábrica de leite em pó, reforçando a importância econômica de Castro na cadeia produtiva. A região
+                            contribui com cerca de 15% da produção nacional, consolidando seu papel estratégico no agronegócio
+                            brasileiro.
+                            <br>
+                            Fonte: <a target="_blank"
+                                href="https://www.castrolanda.coop.br/municipio-do-parana-e-o-maior-produtor-de-leite-do-pais-pelo-terceiro-ano-seguido/">
+                                Castrolanda</a>
+                        </p>
+                        <img src="images/parana.png" alt="Mapa do Paraná" class="imagem-rota">
+                    </div>
+                    <img src="images/leite.png" alt="Produção de leite" style="max-width: 300px; border-radius: 8px;">
+                </div>
+            </div>
+        </section>
+
+        <section id="cafe" class="timeline rotaspr">
+            <h2>Linha do Tempo do Café</h2>
+            <div class="timeline-item">
+                <h3>Colheita</h3>
+                <p>Os grãos são colhidos manualmente, selecionando apenas os frutos maduros.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Processamento Pós-Colheita</h3>
+                <p>O café passa por processos como via úmida (despolpamento) ou seca (secagem ao sol), que podem durar
+                    de alguns dias a até 2 semanas.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Beneficiamento</h3>
+                <p>Os grãos são descascados, classificados e ensacados para exportação ou torrefação.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Torra</h3>
+                <p>Em torrefadoras, os grãos são torrados por 10 a 20 minutos em altas temperaturas.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Embalagem e Distribuição</h3>
+                <p>O café é embalado a vácuo e distribuído para as lojas em até 7 dias após a torra.</p>
+            </div>
+            <div class="texto-com-imagem">
+                <div style="display: flex; align-items: flex-start; gap: 20px;">
+                    <div style="flex: 1;">
+                        <h4>Carlópolis (PR): Maior Produtor de Café do Paraná</h4>
+                        <p>
+                            Carlópolis, no Norte Pioneiro do Paraná, é o maior produtor de café do estado, responsável por 23%
+                            da produção estadual. Esse destaque vem da tradição local e do aprimoramento constante das técnicas
+                            de cultivo, que garantem a alta qualidade dos grãos.
+
+                            A cidade também investe em inovação e práticas sustentáveis para agregar valor ao café produzido,
+                            ampliando sua presença no mercado nacional e internacional. O café de Carlópolis é reconhecido por
+                            suas características sensoriais, conquistando consumidores exigentes.
+                            <br>
+                            Fonte: <a target="_blank"
+                                href="https://www.folhadelondrina.com.br/folha-rural/com-23-de-participacao-carlopolis-e-o-maior-produtor-de-cafe-do-parana-3251025e.html?d=1">
+                                Folha de Londrinha</a>
+                        </p>
+                        <img src="images/parana.png" alt="Mapa do Paraná" class="imagem-rota">
+                    </div>
+                    <img src="images/cafe.png" alt="Grãos de café" style="max-width: 300px; border-radius: 8px;">
+                </div>
+            </div>
+        </section>
+
+        <section id="trigo" class="timeline rotaspr">
+            <h2>Linha do Tempo do Trigo</h2>
+            <div class="timeline-item">
+                <h3>Plantio</h3>
+                <p>As sementes são plantadas em grandes áreas mecanizadas.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Cultivo</h3>
+                <p>O ciclo vai de 120 a 180 dias (cerca de 4 a 6 meses), dependendo da variedade e condições climáticas.
+                </p>
+            </div>
+            <div class="timeline-item">
+                <h3>Colheita</h3>
+                <p>Realizada com colheitadeiras que colhem e debulham os grãos ao mesmo tempo.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Armazenamento</h3>
+                <p>Os grãos são secos e armazenados em silos por semanas ou meses até o processamento.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Moagem</h3>
+                <p>O trigo é limpo, condicionado e transformado em farinha nos moinhos industriais.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Distribuição</h3>
+                <p>A farinha é embalada e distribuída para padarias e indústrias alimentícias.</p>
+            </div>
+            <div class="texto-com-imagem">
+                <div style="display: flex; align-items: flex-start; gap: 20px;">
+                    <div style="flex: 1;">
+                        <h4>Tibagi (PR): Capital Nacional do Trigo</h4>
+                        <p>
+                            Tibagi, município localizado na região dos Campos Gerais do Paraná, é reconhecido como a maior
+                            produtora de trigo do Brasil. Em 2020, a cidade colheu 111 mil toneladas do cereal em uma área de 30
+                            mil hectares, representando mais de 15% da produção estadual. Essa posição consolidada é resultado
+                            de décadas de dedicação e aprimoramento das técnicas de cultivo, que garantem a qualidade superior
+                            dos grãos produzidos na região.
+
+                            A combinação de fatores como clima favorável, altitude entre 800 e 1.300 metros, solos férteis e
+                            práticas agrícolas sustentáveis contribui para o sucesso da produção de trigo em Tibagi. Além disso,
+                            o município investe constantemente em inovação e sustentabilidade, buscando agregar valor à sua
+                            produção e ampliar sua presença no mercado nacional e internacional.
+                            <br>
+                            Fonte: <a
+                                href="https://ric.com.br/economia/agronegocio/cidade-paranaense-e-referencia-em-plantacao-de-trigo-no-brasil-veja-qual-e/"
+                                target="_blank" aria-label="RIC">RIC.COM</a>
+                        </p>
+                        <img src="images/parana.png" alt="Mapa do Paraná" class="imagem-rota">
+                    </div>
+                    <img src="images/trigo.png" alt="Plantação de trigo" style="max-width: 300px; border-radius: 8px;">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Site desenvolvido por Erick Matheus</p>
+        <div class="social-links">
+            <a href="https://instagram.com/erickmth__" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/erick-leguisamon/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/erickmth" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

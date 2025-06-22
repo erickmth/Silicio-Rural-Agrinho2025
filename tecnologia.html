@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silício Rural - Tecnologia no Campo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo-link">
+            <img src="images/logo-placeholder.png" alt="Silício Rural" class="logo">
+        </a>
+        
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="rota.html">Rota dos Alimentos</a></li>
+                <li><a href="tecnologia.html" class="active">Tecnologia no Campo</a></li>
+                <li><a href="sobre.html">Sobre o Autor</a></li>
+                                <li><a href="quizz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="audio-container">
+        <audio controls>
+            <source src="audio/tecnologia.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </div>
+
+    <main class="main-content">
+        <div class="tech-intro">
+            <h1>Tecnologia no Campo</h1>
+            <h2>Conheça algumas das empresas que estão revolucionando o campo com tecnologia.</h2>
+        </div>
+
+        <!-- Texto + Imagem lado a lado -->
+        <section class="tech-section" style="display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; flex-wrap: wrap;">
+            <div class="tech-text" style="flex: 1; min-width: 250px;">
+                <h2>Como a tecnologia está transformando a agricultura?</h2>
+                <p>
+                    A tecnologia tem desempenhado um papel fundamental na modernização do campo. 
+                    Hoje, produtores rurais contam com ferramentas digitais, sensores, drones, 
+                    sistemas de irrigação automatizados e plataformas de gestão agrícola. 
+                    Essas inovações ajudam a aumentar a produtividade, reduzir desperdícios, 
+                    otimizar o uso de recursos naturais e garantir uma produção mais sustentável.
+                </p>
+                <p>
+                    Além disso, o uso de aplicativos e softwares de monitoramento permite que o agricultor 
+                    tome decisões mais rápidas e assertivas, acompanhando o clima, a saúde do solo e até o mercado de venda em tempo real. 
+                    A tecnologia conecta o campo à cidade, aproximando o produtor do consumidor final.
+                </p>
+            </div>
+
+            <div class="tech-image" style="flex: 1; min-width: 250px; text-align: center;">
+                <img src="images/drone.png" alt="Drone no Campo" style="max-width: 100%; height: auto; border-radius: 8px;">
+            </div>
+        </section>
+
+        <!-- Notícias / Empresas -->
+        <div class="tech-cards">
+            <div class="tech-card">
+                <img src="images/solinftec.png" alt="Solinftec">
+                <div class="tech-card-content">
+                    <h3>Solinftec</h3>
+                    <p>Plataforma de agricultura digital que oferece soluções para monitoramento em tempo real, gestão de operações e aumento de produtividade.</p>
+                    <a href="https://www.solinftec.com/pt-br/" target="_blank">Visitar Site</a>
+                </div>
+            </div>
+
+            <div class="tech-card">
+                <img src="images/grao-direto.png" alt="Grão Direto">
+                <div class="tech-card-content">
+                    <h3>Grão Direto</h3>
+                    <p>Marketplace digital que conecta produtores rurais diretamente a compradores, eliminando intermediários e aumentando a rentabilidade.</p>
+                    <a href="https://pt.wikipedia.org/wiki/Gr%C3%A3o_Direto" target="_blank">Visitar Site</a>
+                </div>
+            </div>
+
+            <div class="tech-card">
+                <img src="images/rural-tech.png" alt="Rural Tech">
+                <div class="tech-card-content">
+                    <h3>Rural Tech</h3>
+                    <p>Soluções em agricultura de precisão, incluindo drones, sensores e análise de dados para otimizar a produção agrícola.</p>
+                    <a href="https://www.ruraltech.com.br/" target="_blank">Visitar Site</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Site desenvolvido por Erick Matheus</p>
+<div class="social-links">
+    <a href="https://instagram.com/erickmth__" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/erick-leguisamon/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://github.com/erickmth" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+    </a>
+</div>
+    </footer>
+</body>
+</html>
