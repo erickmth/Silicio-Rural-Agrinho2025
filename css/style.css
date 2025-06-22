@@ -30,7 +30,8 @@ header {
     padding: 0.5rem 1rem;
     display: flex;
     align-items: center;
-    justify-content: center; /* Centraliza o nav */
+    justify-content: center;
+    /* Centraliza o nav */
     position: sticky;
     top: 0;
     z-index: 100;
@@ -89,7 +90,7 @@ nav {
     transform: translateY(-150%);
     transition: transform 0.3s ease;
     z-index: 99;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 nav.active {
@@ -118,7 +119,7 @@ nav a {
 nav a:hover {
     transform: scale(1.05);
     text-decoration: underline;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 4px;
 }
 
@@ -169,15 +170,40 @@ audio {
     margin: 0 auto;
 }
 
+/* Media Query para dispositivos móveis */
+@media (max-width: 768px) {
+    .hero {
+        height: 40vh;
+        /* Altura menor em dispositivos móveis */
+        background-attachment: scroll;
+        /* Remove o efeito parallax fixo que pode causar problemas em mobile */
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        /* Tamanho de fonte menor para mobile */
+    }
+
+    .hero p {
+        font-size: 1rem;
+        /* Tamanho de fonte menor para mobile */
+        padding: 0 1rem;
+        /* Adiciona um pouco de padding nas laterais */
+    }
+}
+
 .video-container {
     position: relative;
-    height: 300px; /* altura fixa que você quiser */
+    height: 300px;
+    /* altura fixa que você quiser */
     overflow: hidden;
     margin: 1rem auto;
     border-radius: 8px;
     box-shadow: var(--sombra);
-    width: 800px; /* aumenta a largura do player */
-    max-width: 100%; /* pra não ultrapassar a tela no mobile */
+    width: 800px;
+    /* aumenta a largura do player */
+    max-width: 100%;
+    /* pra não ultrapassar a tela no mobile */
 }
 
 .video-container iframe {
@@ -404,7 +430,8 @@ footer {
     nav ul {
         flex-direction: row;
         gap: 2rem;
-        justify-content: center; /* Centraliza as abas horizontalmente */
+        justify-content: center;
+        /* Centraliza as abas horizontalmente */
         align-items: center;
     }
 
@@ -473,7 +500,8 @@ footer {
 
 #main-nav ul li a {
     text-decoration: none;
-    color: white; /* Cor padrão dos links */
+    color: white;
+    /* Cor padrão dos links */
     padding: 0.5rem 1rem;
     border-radius: 8px;
     transition: all 0.3s;
@@ -481,15 +509,19 @@ footer {
 }
 
 #main-nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.1); /* Efeito hover leve */
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Efeito hover leve */
     color: #ccc;
 }
 
 #main-nav ul li a.active {
-    color: rgb(219, 219, 219); /* Texto preto na aba ativa */
-    background-color: rgba(255, 255, 255, 0.162); /* Fundo branco com transparência */
+    color: rgb(219, 219, 219);
+    /* Texto preto na aba ativa */
+    background-color: rgba(255, 255, 255, 0.162);
+    /* Fundo branco com transparência */
     font-weight: bold;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opcional: uma sombrinha leve */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Opcional: uma sombrinha leve */
 }
 
 
@@ -517,7 +549,8 @@ footer {
         transition: all 0.3s ease;
     }
 }
-.menu-toggle:checked ~ nav {
+
+.menu-toggle:checked~nav {
     transform: translateY(0);
 }
 
@@ -532,7 +565,7 @@ footer {
     margin-bottom: 30px;
     background-color: #f9f9f9;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .rotaspr h2 {
@@ -553,10 +586,10 @@ footer {
     margin-bottom: 5px;
 }
 
-/* Estilo para o container texto + imagem */
+
 .texto-com-imagem {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: 20px;
     margin-top: 30px;
     padding: 20px;
@@ -565,8 +598,18 @@ footer {
     border-left: 4px solid #27ae60;
 }
 
+.texto-com-imagem > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.texto-com-imagem h4 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
 .texto-com-imagem p {
-    flex: 2;
     margin: 0;
     font-style: italic;
     color: #555;
@@ -574,24 +617,61 @@ footer {
 }
 
 .imagem-rota {
-    flex: 1;
+    width: 100%;
     max-width: 250px;
     height: auto;
     border-radius: 6px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border: 1px solid #ddd;
+    margin-top: 15px;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
-    .texto-com-imagem {
-        flex-direction: column;
+.texto-com-imagem img:not(.imagem-rota) {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    align-self: center;
+}
+
+/* Media Query para tablets e desktops */
+@media (min-width: 768px) {
+    .texto-com-imagem > div {
+        flex-direction: row;
+        align-items: flex-start;
     }
     
-    .imagem-rota {
-        max-width: 100%;
-        margin-top: 15px;
+    .texto-com-imagem > div > div {
+        flex: .5;
     }
+    
+    .texto-com-imagem img:not(.imagem-rota) {
+        max-width: 50px;
+    }
+}
+
+/* Estilos adicionais para a timeline */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.timeline-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+}
+
+.timeline h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.timeline p {
+    margin-bottom: 0;
+    color: #555;
 }
 
 /* Estilos para os botões de seleção de rota */
@@ -623,7 +703,8 @@ footer {
     align-items: center;
     gap: 2rem;
     margin-bottom: 2rem;
-    flex-wrap: wrap; /* Pra quebrar em telas pequenas */
+    flex-wrap: wrap;
+    /* Pra quebrar em telas pequenas */
 }
 
 .tech-section .tech-text {
@@ -638,7 +719,8 @@ footer {
 }
 
 .tech-section .tech-image img {
-    max-width: 50px; /* Limita a largura máxima */
+    max-width: 50px;
+    /* Limita a largura máxima */
     width: 70%;
     height: auto;
     border-radius: 8px;
@@ -730,7 +812,7 @@ footer {
     background-color: #ddd;
 }
 
-.option input:checked ~ .checkmark {
+.option input:checked~.checkmark {
     background-color: #4CAF50;
 }
 
@@ -740,7 +822,7 @@ footer {
     display: none;
 }
 
-.option input:checked ~ .checkmark:after {
+.option input:checked~.checkmark:after {
     display: block;
 }
 
@@ -764,7 +846,7 @@ footer {
     line-height: 1.5;
 }
 
-input:checked ~ .feedback {
+input:checked~.feedback {
     max-height: 100px;
     padding: 0.8rem 1rem;
     margin-top: 0.8rem;
@@ -800,53 +882,38 @@ input:checked ~ .feedback {
     .quiz-intro h1 {
         font-size: 2.5rem;
     }
-    
+
     .quiz-intro p {
         font-size: 1.2rem;
     }
-    
+
     .quiz-container {
         padding: 2rem;
     }
-    
+
     .question h3 {
         font-size: 1.3rem;
     }
-    
+
     .options {
         gap: 1rem;
     }
-    
+
     .option {
         padding-left: 2.5rem;
     }
-    
+
     .checkmark {
         height: 1.5rem;
         width: 1.5rem;
     }
-    
+
     .checkmark:after {
         top: 0.45rem;
         left: 0.45rem;
     }
-    
+
     .feedback {
         font-size: 1rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
