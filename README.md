@@ -1,1 +1,38 @@
-# Silicio-Rural-Agrinho2025
+# Silício Rural - Projeto Agrinho 2025
+
+Site desenvolvido para o Projeto Agrinho 2025 com o tema "Festejando a conexão entre o campo e a cidade". O Silício Rural mostra como a agricultura moderna está cada vez mais tecnológica e como essas inovações estão aproximando o campo das cidades.
+
+## Recursos e Tecnologias
+- HTML5 semântico
+- CSS3 moderno com variáveis e Flexbox/Grid
+- Design responsivo para todos os dispositivos
+- Navegação acessível com menu hamburguer em CSS puro
+- Elementos de áudio para acessibilidade
+
+## Conteúdo
+- Rota dos alimentos: jornada do campo à mesa
+- Tecnologia no campo: inovações agrícolas
+- Quiz interativo sobre agricultura
+- Sobre o autor e o projeto
+
+## Assets Utilizados
+- **Imagens**: 
+  - IA generativas (Bing Image Creator)
+  - Banco de imagens PNG (pngimg.com)
+  - Edições e composições próprias
+- **Áudios**: 
+  - Gerados com Google AI Studio para acessibilidade
+  - Trilha sonora ambiente
+- **Ícones**: Font Awesome 6
+- **Fontes**: Google Fonts (Poppins)
+
+## Acessibilidade
+- Contraste adequado
+- Navegação por teclado
+- Descrições alternativas
+- Conteúdo em áudio
+
+## Desenvolvido por
+Erick Matheus - Estudante e entusiasta de tecnologia
+
+> Projeto orientado pela professora Virgilia Neta - Escola Hildegard Sondahl
