@@ -44,3 +44,9 @@ Erick Matheus - Estudante e entusiasta de tecnologia
 ---
 
 🔗 [Clique aqui para ver como foi o processo de criação do projeto](https://drive.google.com/file/d/1IUVDakndnkYvRGuFsdclWHYPBk4qpuUu/view?usp=sharing)
+
+> **Nota Importante:**  
+Alterações feitas após o prazo oficial de entrega foram exclusivamente no arquivo `README.md`, apenas para fins de documentação.  
+Nenhuma modificação foi realizada no código-fonte ou no conteúdo do site publicado no GitHub Pages.  
+O projeto válido para o concurso corresponde ao estado dos arquivos até as 23h59 do dia da entrega, conforme regulamento.
+
