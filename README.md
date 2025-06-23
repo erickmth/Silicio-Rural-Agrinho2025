@@ -1,7 +1,7 @@
 # Silício Rural - Projeto Agrinho 2025
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1eZWaR7-hq0NALJ76Ht6V8hKRYu0I7Fh6" alt="Logo Agrinho & AgroInova" width="300"/>
+  <img src=https://drive.google.com/uc?export=view&id=1SU6igspQS92bk-w4yH84AC5gIy3pwBPd" alt="Logo Agrinho & AgroInova" width="300"/>
 </p>
 
 
