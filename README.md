@@ -4,7 +4,6 @@
   <img src="https://drive.google.com/uc?export=view&id=1SU6igspQS92bk-w4yH84AC5gIy3pwBPd" alt="Logo Agrinho & AgroInova" width="300"/>
 </p>
 
-
 Site desenvolvido para o Projeto Agrinho 2025 com o tema "Festejando a conexão entre o campo e a cidade". O Silício Rural mostra como a agricultura moderna está cada vez mais tecnológica e como essas inovações estão aproximando o campo das cidades.
 
 ## Recursos e Tecnologias
@@ -41,3 +40,7 @@ Site desenvolvido para o Projeto Agrinho 2025 com o tema "Festejando a conexão 
 Erick Matheus - Estudante e entusiasta de tecnologia
 
 > Projeto orientado pela professora Virgilia Neta - Escola Hildegard Sondahl
+
+---
+
+🔗 [Clique aqui para ver como foi o processo de criação do projeto](https://drive.google.com/file/d/1IUVDakndnkYvRGuFsdclWHYPBk4qpuUu/view?usp=sharing)
