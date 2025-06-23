@@ -1,8 +1,9 @@
 # Silício Rural - Projeto Agrinho 2025
 
-<p align="center">
-  <img src="https://drive.google.com/file/d/1SU6igspQS92bk-w4yH84AC5gIy3pwBPd/preview" alt="Logo Silício Rural" width="300"/>
-</p>
+<div style="text-align: center;">
+  <iframe src="https://drive.google.com/file/d/1SU6igspQS92bk-w4yH84AC5gIy3pwBPd/preview" width="640" height="480" allow="autoplay"></iframe>
+</div>
+
 
 Site desenvolvido para o Projeto Agrinho 2025 com o tema "Festejando a conexão entre o campo e a cidade". O Silício Rural mostra como a agricultura moderna está cada vez mais tecnológica e como essas inovações estão aproximando o campo das cidades.
 
